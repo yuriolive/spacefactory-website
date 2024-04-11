@@ -80,22 +80,22 @@ const stack = [
       <div class='relative w-full h-full flex items-center justify-center'>
         <div class='p-5 text-center'>
           <p class='animated text-lg md:text-xl lg:text-2xl font-semibold opacity-75'>
-            Hello, I am Mark
+            Bem-vindo ao futuro da
           </p>
           <p class='animated text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white'>
-            Software Engineer
+            Educação
           </p>
           <p class='animated text-sm md:text-base lg:text-lg opacity-75'>
-            Currently designing products for humans.
+            Faça parte da revolução do ensino no país.
           </p>
-          <div id="ctaButtons" class='animated flex flex-wrap gap-4 justify-center mt-5'>
-            <a href='/blog' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
-              Read my blog
-            </a>
-            <a href='/work' class='py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend'>
-              View my work
-            </a>
-          </div>
+          <!--<div id="ctaButtons" class='animated flex flex-wrap gap-4 justify-center mt-5'>-->
+          <!--  <a href='/blog' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>-->
+          <!--    Read my blog-->
+          <!--  </a>-->
+          <!--  <a href='/work' class='py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend'>-->
+          <!--    View my work-->
+          <!--  </a>-->
+          <!--</div>-->
         </div>
       </div>
     </div>
@@ -107,95 +107,93 @@ const stack = [
       <!-- About Section -->
       <section class="animate">
         <article>
-          <p>I am a <b><i>software engineer</i></b>, <b><i>ui/ux designer</i></b>, <b><i>product planner</i></b>, <b><i>mentor</i></b>, <b><i>student</i></b>, <b><i>minimalist</i></b>, <b><i>eternal optimist</i></b>, <b><i>crypto enthusiast</i></b> and <b><i>sarcasm connoisseur</i></b>.</p>
-          <p>I love to both build and break things. I am motivated by challenging projects with self-guided research and dynamic problem solving. My true passion is crafting creative front end designs with unique takes on color, typography and motion.</p>
-          <p>During my career</p>
-          <p>I have built products ranging from marketing and ecommerce websites to complex enterprise apps with focus on delivering fast, elegant code along with delightful user interfaces.</p>
-          <p>Now</p>
-          <p>I currently work as a software engineer at StreamlineFS, where I do product planning, design and development.</p>
+          <p>Nós nascemos com a missão de democratizar o acesso a uma educação de qualidade e personalizada no Brasil.  Acreditamos que a inteligência artificial é a chave para revolucionar o ensino, tornando-o adaptativo, individualizado e engajador para todos: alunos, professores e instituições. Nossos projetos utilizam tecnologia de ponta para personalizar a experiência de aprendizagem, acompanhando o desenvolvimento de cada indivíduo e adaptando o conteúdo às suas necessidades específicas. </p>
+          <p>Acreditamos que o aprendizado deve ir além da sala de aula tradicional. Nossa visão é tornar o Brasil uma potência educacional, elevando os padrões de excelência e equidade na educação básica. Nossas soluções buscam permitir um acompanhamento contínuo do progresso do ensino, identificando dificuldades e potencialidades. Isso possibilita um ensino mais direcionado, com foco nas necessidades individuais de cada estudante. </p>
+          <p>Acreditamos no acesso igualitário à educação de qualidade, independentemente da origem ou localização do aluno. Valorizamos a individualidade, personalizando o aprendizado e respeitando os diferentes ritmos e habilidades. Buscamos constantemente a <i>excelência acadêmica</i>, utilizando as melhores práticas pedagógicas e inovações tecnológicas. Fomentamos o <i>desenvolvimento integral</i> dos alunos, estimulando não apenas o conhecimento, mas também habilidades socioemocionais e o pensamento crítico. </p>
+          <p>Junte-se a nós nessa jornada para transformar a educação brasileira, construindo um futuro onde a tecnologia e a inteligência artificial abrem portas para um aprendizado mais eficiente, inclusivo e personalizado.</p>
         </article>
       </section>
 
       <!-- Blog Preview Section -->
-      <section class="animate">
-        <div class="space-y-4">
-          <div class="flex justify-between">
-            <p class="font-semibold text-black dark:text-white">
-              Recent posts
-            </p>
-            <a href="/blog" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
-              <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
-                All posts
-              </span>
-            </a>
-          </div>
-          <ul class="space-y-4">
-            {posts.map((post) => (
-              <li>
-                <ArrowCard entry={post} />
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
+      <!--<section class="animate">-->
+      <!--  <div class="space-y-4">-->
+      <!--    <div class="flex justify-between">-->
+      <!--      <p class="font-semibold text-black dark:text-white">-->
+      <!--        Recent posts-->
+      <!--      </p>-->
+      <!--      <a href="/blog" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">-->
+      <!--        <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">-->
+      <!--          All posts-->
+      <!--        </span>-->
+      <!--      </a>-->
+      <!--    </div>-->
+      <!--    <ul class="space-y-4">-->
+      <!--      {posts.map((post) => (-->
+      <!--        <li>-->
+      <!--          <ArrowCard entry={post} />-->
+      <!--        </li>-->
+      <!--      ))}-->
+      <!--    </ul>-->
+      <!--  </div>-->
+      <!--</section>-->
 
       <!-- Tech Stack Section -->
-      <section class="animate">
-        <div class="space-y-4">
-          <p class="font-semibold text-black dark:text-white">
-            Website build with
-          </p>
-          <div class="flex flex-wrap items-center gap-2 mt-5">
-            {stack.map(item => (
-              <StackCard 
-                text={item.text}
-                icon={item.icon}
-                href={item.href}
-              />
-            ))}
-          </div>
-          <div>
-            Performing reactivity and statefulness, special guest
-            <a href="https://www.solidjs.com/" target="_blank" class="w-fit group underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
-              <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
-                SolidJS
-              </span>
-            </a>
-          </div>
-        </div>
-      </section>
+      <!--<section class="animate">-->
+      <!--  <div class="space-y-4">-->
+      <!--    <p class="font-semibold text-black dark:text-white">-->
+      <!--      Website build with-->
+      <!--    </p>-->
+      <!--    <div class="flex flex-wrap items-center gap-2 mt-5">-->
+      <!--      {stack.map(item => (-->
+      <!--        <StackCard -->
+      <!--          text={item.text}-->
+      <!--          icon={item.icon}-->
+      <!--          href={item.href}-->
+      <!--        />-->
+      <!--      ))}-->
+      <!--    </div>-->
+      <!--    <div>-->
+      <!--      Performing reactivity and statefulness, special guest-->
+      <!--      <a href="https://www.solidjs.com/" target="_blank" class="w-fit group underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">-->
+      <!--        <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">-->
+      <!--          SolidJS-->
+      <!--        </span>-->
+      <!--      </a>-->
+      <!--    </div>-->
+      <!--  </div>-->
+      <!--</section>-->
 
       <!-- Project Preview Section -->
-      <section class="animate">
-        <div class="space-y-4">
-          <div class="flex justify-between">
-            <p class="font-semibold text-black dark:text-white">
-              Recent projects
-            </p>
-            <a href="/projects" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
-              <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
-                All projects
-              </span>
-            </a>
-          </div>
-          <ul class="space-y-4">
-            {projects.map((project) => (
-              <li>
-                <ArrowCard entry={project} />
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
+      <!--<section class="animate">-->
+      <!--  <div class="space-y-4">-->
+      <!--    <div class="flex justify-between">-->
+      <!--      <p class="font-semibold text-black dark:text-white">-->
+      <!--        Recent projects-->
+      <!--      </p>-->
+      <!--      <a href="/projects" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">-->
+      <!--        <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">-->
+      <!--          All projects-->
+      <!--        </span>-->
+      <!--      </a>-->
+      <!--    </div>-->
+      <!--    <ul class="space-y-4">-->
+      <!--      {projects.map((project) => (-->
+      <!--        <li>-->
+      <!--          <ArrowCard entry={project} />-->
+      <!--        </li>-->
+      <!--      ))}-->
+      <!--    </ul>-->
+      <!--  </div>-->
+      <!--</section>-->
 
       <!-- Contact Section -->
       <section class="animate">
         <div>
           <p class="font-semibold text-black dark:text-white">
-            Let's Connect
+            Quer conversar?
           </p>
           <p>
-            Reach out to me via email or on social media.
+            Entre em contato por e-mail.
           </p>
           <div class="grid grid-cols-4 gap-y-2 mt-4 auto-cols-min">
             {SOCIALS.map(social => (

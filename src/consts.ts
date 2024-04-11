@@ -2,9 +2,9 @@ import type { Site, Page, Links, Socials } from "@types"
 
 // Global
 export const SITE: Site = {
-  TITLE: "Astro Sphere",
+  TITLE: "Space Factory",
   DESCRIPTION: "Welcome to Astro Sphere, a portfolio and blog for designers and developers.",
-  AUTHOR: "Mark Horn",
+  AUTHOR: "Space Factory",
 }
 
 // Work Page
@@ -27,27 +27,27 @@ export const PROJECTS: Page = {
 
 // Search Page
 export const SEARCH: Page = {
-  TITLE: "Search",
+  TITLE: "Buscar",
   DESCRIPTION: "Search all posts and projects by keyword.",
 }
 
 // Links
 export const LINKS: Links = [
   { 
-    TEXT: "Home", 
+    TEXT: "Home",
     HREF: "/", 
   },
   { 
-    TEXT: "Work", 
-    HREF: "/work", 
+    TEXT: "Sobre Nós",
+    HREF: "/sobre-nos",
   },
   { 
     TEXT: "Blog", 
     HREF: "/blog", 
   },
   { 
-    TEXT: "Projects", 
-    HREF: "/projects", 
+    TEXT: "Projetos",
+    HREF: "/projetos",
   },
 ]
 
@@ -56,26 +56,26 @@ export const SOCIALS: Socials = [
   { 
     NAME: "Email",
     ICON: "email", 
-    TEXT: "markhorn.dev@gmail.com",
-    HREF: "mailto:markhorn.dev@gmail.com",
+    TEXT: "contato@spacefactory.com.br",
+    HREF: "mailto:contato@spacefactory.com.br",
   },
-  { 
-    NAME: "Github",
-    ICON: "github",
-    TEXT: "markhorn-dev",
-    HREF: "https://github.com/markhorn-dev/astro-sphere"
-  },
-  { 
-    NAME: "LinkedIn",
-    ICON: "linkedin",
-    TEXT: "markhorn-dev",
-    HREF: "https://www.linkedin.com/in/markhorn-dev/",
-  },
-  { 
-    NAME: "Twitter",
-    ICON: "twitter-x",
-    TEXT: "markhorn_dev",
-    HREF: "https://twitter.com/markhorn_dev",
-  },
+  // {
+  //   NAME: "Github",
+  //   ICON: "github",
+  //   TEXT: "markhorn-dev",
+  //   HREF: "https://github.com/markhorn-dev/astro-sphere"
+  // },
+  // {
+  //   NAME: "LinkedIn",
+  //   ICON: "linkedin",
+  //   TEXT: "markhorn-dev",
+  //   HREF: "https://www.linkedin.com/in/markhorn-dev/",
+  // },
+  // {
+  //   NAME: "Twitter",
+  //   ICON: "twitter-x",
+  //   TEXT: "markhorn_dev",
+  //   HREF: "https://twitter.com/markhorn_dev",
+  // },
 ]
 
