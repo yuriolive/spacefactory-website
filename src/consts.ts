@@ -3,13 +3,13 @@ import type { Site, Page, Links, Socials } from "@types"
 // Global
 export const SITE: Site = {
   TITLE: "Space Factory",
-  DESCRIPTION: "Welcome to Astro Sphere, a portfolio and blog for designers and developers.",
+  DESCRIPTION: "Transformando o Brasil em potência educacional com IA e ensino adaptativo",
   AUTHOR: "Space Factory",
 }
 
 // Work Page
 export const WORK: Page = {
-  TITLE: "Work",
+  TITLE: "Trabalho",
   DESCRIPTION: "Places I have worked.",
 }
 
@@ -21,7 +21,7 @@ export const BLOG: Page = {
 
 // Projects Page 
 export const PROJECTS: Page = {
-  TITLE: "Projects",
+  TITLE: "Projetos",
   DESCRIPTION: "Recent projects I have worked on.",
 }
 
