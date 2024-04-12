@@ -17,6 +17,7 @@ export default defineConfig({
       removeAttributeQuotes: true,
       removeRedundantAttributes: true,
       trimCustomFragments: true,
-    }
+    },
+    SVG: false,
   })]
 });
