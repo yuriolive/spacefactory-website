@@ -13,6 +13,10 @@ export default defineConfig({
     HTML: {
       removeComments: true,
       removeEmptyElements: true,
+      removeEmptyAttributes: true,
+      removeAttributeQuotes: true,
+      removeRedundantAttributes: true,
+      trimCustomFragments: true,
     }
   })]
 });
