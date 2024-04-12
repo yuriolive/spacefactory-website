@@ -37,18 +37,18 @@ export const LINKS: Links = [
     TEXT: "Home",
     HREF: "/", 
   },
-  { 
-    TEXT: "Sobre Nós",
-    HREF: "/sobre-nos",
-  },
-  { 
-    TEXT: "Blog", 
-    HREF: "/blog", 
-  },
-  { 
-    TEXT: "Projetos",
-    HREF: "/projetos",
-  },
+  // {
+  //   TEXT: "Sobre Nós",
+  //   HREF: "/sobre-nos",
+  // },
+  // {
+  //   TEXT: "Blog",
+  //   HREF: "/blog",
+  // },
+  // {
+  //   TEXT: "Projetos",
+  //   HREF: "/projetos",
+  // },
 ]
 
 // Socials
